@@ -1,0 +1,18 @@
+{
+  "config": {
+    "inset_mapping": {
+      "d_inset_1.svg": "d2_nd4000",
+      "d_inset_2.svg": "d6_nd4000",
+      "d_inset_3.svg": "d6_nd32000",
+      "d_inset_4.svg": "d6_nd500"
+    },
+    "heatmap": {
+      "aggregation": "mean(without_warmup.ece_list)",
+      "cmap": "coolwarm",
+      "clim": [
+        0,
+        0.25
+      ]
+    }
+  }
+}

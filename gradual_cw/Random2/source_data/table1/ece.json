@@ -1,0 +1,402 @@
+{
+  "resnet18": {
+    "msp": {
+      "without_warmup": [
+        0.0378,
+        0.0321,
+        0.0294
+      ],
+      "with_warmup": [
+        0.0206,
+        0.0191,
+        0.0161
+      ]
+    },
+    "temp_scaling": {
+      "without_warmup": [
+        0.025,
+        0.0237,
+        0.0283
+      ],
+      "with_warmup": [
+        0.0206,
+        0.023,
+        0.0204
+      ]
+    },
+    "vec_scaling": {
+      "without_warmup": [
+        0.0285,
+        0.0253,
+        0.0217
+      ],
+      "with_warmup": [
+        0.0172,
+        0.0214,
+        0.0196
+      ]
+    },
+    "isotonic_reg": {
+      "without_warmup": [
+        0.0268,
+        0.0244,
+        0.024
+      ],
+      "with_warmup": [
+        0.0259,
+        0.0233,
+        0.0233
+      ]
+    }
+  },
+  "resnet34": {
+    "msp": {
+      "without_warmup": [
+        0.0379,
+        0.033,
+        0.0557
+      ],
+      "with_warmup": [
+        0.0212,
+        0.0212,
+        0.0247
+      ]
+    },
+    "temp_scaling": {
+      "without_warmup": [
+        0.0237,
+        0.019,
+        0.0203
+      ],
+      "with_warmup": [
+        0.0144,
+        0.0254,
+        0.0182
+      ]
+    },
+    "vec_scaling": {
+      "without_warmup": [
+        0.0239,
+        0.0176,
+        0.026
+      ],
+      "with_warmup": [
+        0.015,
+        0.028,
+        0.0188
+      ]
+    },
+    "isotonic_reg": {
+      "without_warmup": [
+        0.027,
+        0.0243,
+        0.0235
+      ],
+      "with_warmup": [
+        0.0265,
+        0.0224,
+        0.0296
+      ]
+    }
+  },
+  "resnet50": {
+    "msp": {
+      "without_warmup": [
+        0.0615,
+        0.0613,
+        0.0708
+      ],
+      "with_warmup": [
+        0.0273,
+        0.0379,
+        0.0282
+      ]
+    },
+    "temp_scaling": {
+      "without_warmup": [
+        0.0368,
+        0.0233,
+        0.0271
+      ],
+      "with_warmup": [
+        0.0188,
+        0.0187,
+        0.0287
+      ]
+    },
+    "vec_scaling": {
+      "without_warmup": [
+        0.0478,
+        0.0451,
+        0.045
+      ],
+      "with_warmup": [
+        0.0206,
+        0.0226,
+        0.0249
+      ]
+    },
+    "isotonic_reg": {
+      "without_warmup": [
+        0.0209,
+        0.025,
+        0.0246
+      ],
+      "with_warmup": [
+        0.0289,
+        0.0261,
+        0.0284
+      ]
+    }
+  },
+  "resnet101": {
+    "msp": {
+      "without_warmup": [
+        0.0735,
+        0.0649,
+        0.067
+      ],
+      "with_warmup": [
+        0.0429,
+        0.0345,
+        0.0456
+      ]
+    },
+    "temp_scaling": {
+      "without_warmup": [
+        0.0238,
+        0.0268,
+        0.0298
+      ],
+      "with_warmup": [
+        0.0206,
+        0.0255,
+        0.0182
+      ]
+    },
+    "vec_scaling": {
+      "without_warmup": [
+        0.0568,
+        0.0439,
+        0.0404
+      ],
+      "with_warmup": [
+        0.0259,
+        0.0381,
+        0.028
+      ]
+    },
+    "isotonic_reg": {
+      "without_warmup": [
+        0.0216,
+        0.0257,
+        0.0258
+      ],
+      "with_warmup": [
+        0.0293,
+        0.0241,
+        0.024
+      ]
+    }
+  },
+  "densenet121": {
+    "msp": {
+      "without_warmup": [
+        0.0364,
+        0.0352,
+        0.037
+      ],
+      "with_warmup": [
+        0.018,
+        0.0165,
+        0.0172
+      ]
+    },
+    "temp_scaling": {
+      "without_warmup": [
+        0.0246,
+        0.0231,
+        0.0156
+      ],
+      "with_warmup": [
+        0.0252,
+        0.018,
+        0.0172
+      ]
+    },
+    "vec_scaling": {
+      "without_warmup": [
+        0.0258,
+        0.025,
+        0.0253
+      ],
+      "with_warmup": [
+        0.0251,
+        0.0235,
+        0.0213
+      ]
+    },
+    "isotonic_reg": {
+      "without_warmup": [
+        0.0249,
+        0.0264,
+        0.0323
+      ],
+      "with_warmup": [
+        0.0293,
+        0.0242,
+        0.031
+      ]
+    }
+  },
+  "densenet169": {
+    "msp": {
+      "without_warmup": [
+        0.041,
+        0.0427,
+        0.0437
+      ],
+      "with_warmup": [
+        0.0186,
+        0.0205,
+        0.0107
+      ]
+    },
+    "temp_scaling": {
+      "without_warmup": [
+        0.0207,
+        0.0191,
+        0.0218
+      ],
+      "with_warmup": [
+        0.0186,
+        0.0244,
+        0.0107
+      ]
+    },
+    "vec_scaling": {
+      "without_warmup": [
+        0.03,
+        0.0258,
+        0.0329
+      ],
+      "with_warmup": [
+        0.0256,
+        0.0302,
+        0.0182
+      ]
+    },
+    "isotonic_reg": {
+      "without_warmup": [
+        0.0307,
+        0.024,
+        0.023
+      ],
+      "with_warmup": [
+        0.0251,
+        0.0289,
+        0.028
+      ]
+    }
+  },
+  "densenet201": {
+    "msp": {
+      "without_warmup": [
+        0.05,
+        0.057,
+        0.0603
+      ],
+      "with_warmup": [
+        0.0224,
+        0.0182,
+        0.015
+      ]
+    },
+    "temp_scaling": {
+      "without_warmup": [
+        0.0217,
+        0.0337,
+        0.0268
+      ],
+      "with_warmup": [
+        0.0224,
+        0.0182,
+        0.0168
+      ]
+    },
+    "vec_scaling": {
+      "without_warmup": [
+        0.0405,
+        0.046,
+        0.0454
+      ],
+      "with_warmup": [
+        0.0268,
+        0.0202,
+        0.023
+      ]
+    },
+    "isotonic_reg": {
+      "without_warmup": [
+        0.0224,
+        0.0266,
+        0.0247
+      ],
+      "with_warmup": [
+        0.0315,
+        0.0228,
+        0.0232
+      ]
+    }
+  },
+  "vit": {
+    "msp": {
+      "without_warmup": [
+        0.1108,
+        0.1191,
+        0.1213
+      ],
+      "with_warmup": [
+        0.062,
+        0.0572,
+        0.0476
+      ]
+    },
+    "temp_scaling": {
+      "without_warmup": [
+        0.0312,
+        0.0397,
+        0.0364
+      ],
+      "with_warmup": [
+        0.0211,
+        0.0278,
+        0.0318
+      ]
+    },
+    "vec_scaling": {
+      "without_warmup": [
+        0.099,
+        0.1144,
+        0.1087
+      ],
+      "with_warmup": [
+        0.057,
+        0.0666,
+        0.0608
+      ]
+    },
+    "isotonic_reg": {
+      "without_warmup": [
+        0.0259,
+        0.0245,
+        0.0219
+      ],
+      "with_warmup": [
+        0.0205,
+        0.0206,
+        0.0198
+      ]
+    }
+  }
+}

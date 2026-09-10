@@ -1,0 +1,121 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="33.116844px" height="33.116844px" viewBox="0 0 33.116844 33.116844" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-02-22T03:08:25.773929</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <defs>
+  <clipPath id="pdf572f882f">
+   <rect x="4.139606" y="3.974021" width="25.665554" height="25.49997"/>
+  </clipPath>
+ </defs>
+<g id="patch_1">
+   <path d="M 0 33.116844  L 33.116844 33.116844  L 33.116844 0  L 0 0  L 0 33.116844  z " style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 4.139606 29.473991  L 29.80516 29.473991  L 29.80516 3.974021  L 4.139606 3.974021  L 4.139606 29.473991  z " style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mabcfe9e1c3" d="M 0 0  L 0 2  " style="stroke: #000000; stroke-width: 0.75"/>
+      </defs>
+      <g>
+       <use xlink:href="#mabcfe9e1c3" x="4.139606" y="29.473991" style="stroke: #000000; stroke-width: 0.75"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!--0--><text x="2.471324" y="38.768679" font-family="Arial" font-size="6px" font-weight="regular" fill="currentColor" text-anchor="start" dominant-baseline="alphabetic">0</text></g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mabcfe9e1c3" x="29.80516" y="29.473991" style="stroke: #000000; stroke-width: 0.75"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!--1--><text x="28.136878" y="38.768679" font-family="Arial" font-size="6px" font-weight="regular" fill="currentColor" text-anchor="start" dominant-baseline="alphabetic">1</text></g>
+    </g>
+    <g id="text_3">
+     <!--Conf.--><text x="8.607383" y="48.971648" font-family="Arial" font-size="7px" font-weight="regular" fill="currentColor" text-anchor="start" dominant-baseline="alphabetic">Conf.</text></g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <defs>
+       <path id="m4fe70cc412" d="M 0 0  L -2 0  " style="stroke: #000000; stroke-width: 0.75"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4fe70cc412" x="4.139606" y="29.473991" style="stroke: #000000; stroke-width: 0.75"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!--0--><text x="-4.196957" y="31.621335" font-family="Arial" font-size="6px" font-weight="regular" fill="currentColor" text-anchor="start" dominant-baseline="alphabetic">0</text></g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m4fe70cc412" x="4.139606" y="3.974021" style="stroke: #000000; stroke-width: 0.75"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!--1--><text x="-4.196957" y="6.121365" font-family="Arial" font-size="6px" font-weight="regular" fill="currentColor" text-anchor="start" dominant-baseline="alphabetic">1</text></g>
+    </g>
+    <g id="text_6">
+     <!--Acc.--><text x="-9.588207" y="23.530959" font-family="Arial" font-size="7px" font-weight="regular" fill="currentColor" text-anchor="start" dominant-baseline="alphabetic" transform="rotate(-90, -9.588207, 23.530959)">Acc.</text></g>
+   </g>
+   <g id="patch_3">
+    <path d="M 4.139606 29.473991  L 6.706161 29.473991  L 6.706161 29.473991  L 4.139606 29.473991  z " clip-path="url(#pdf572f882f)" style="fill: #efb1a3"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 6.706161 29.473991  L 9.272716 29.473991  L 9.272716 26.923994  L 6.706161 26.923994  z " clip-path="url(#pdf572f882f)" style="fill: #efb1a3"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 9.272716 29.473991  L 11.839272 29.473991  L 11.839272 24.914394  L 9.272716 24.914394  z " clip-path="url(#pdf572f882f)" style="fill: #efb1a3"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 11.839272 29.473991  L 14.405827 29.473991  L 14.405827 22.623253  L 11.839272 22.623253  z " clip-path="url(#pdf572f882f)" style="fill: #efb1a3"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 14.405827 29.473991  L 16.972383 29.473991  L 16.972383 20.945809  L 14.405827 20.945809  z " clip-path="url(#pdf572f882f)" style="fill: #efb1a3"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 16.972383 29.473991  L 19.538938 29.473991  L 19.538938 19.114108  L 16.972383 19.114108  z " clip-path="url(#pdf572f882f)" style="fill: #efb1a3"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 19.538938 29.473991  L 22.105493 29.473991  L 22.105493 17.357983  L 19.538938 17.357983  z " clip-path="url(#pdf572f882f)" style="fill: #efb1a3"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 22.105493 29.473991  L 24.672049 29.473991  L 24.672049 15.549177  L 22.105493 15.549177  z " clip-path="url(#pdf572f882f)" style="fill: #efb1a3"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 24.672049 29.473991  L 27.238604 29.473991  L 27.238604 13.480241  L 24.672049 13.480241  z " clip-path="url(#pdf572f882f)" style="fill: #efb1a3"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 27.238604 29.473991  L 29.80516 29.473991  L 29.80516 8.53664  L 27.238604 8.53664  z " clip-path="url(#pdf572f882f)" style="fill: #efb1a3"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 4.139606 29.473991  L 4.139606 3.974021  " style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 4.139606 29.473991  L 29.80516 29.473991  " style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 4.139606 29.473991  L 29.80516 3.974021  " clip-path="url(#pdf572f882f)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #000000; stroke-width: 0.5"/>
+   </g>
+  </g>
+ </svg>

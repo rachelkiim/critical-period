@@ -1,0 +1,152 @@
+{
+  "ood_detection": {
+    "resnet18": {
+      "msp": {
+        "without_warmup": "(0.841 ± 0.014)",
+        "with_warmup": "(0.872 ± 0.010)"
+      },
+      "temp_scaling": {
+        "without_warmup": "(0.844 ± 0.010)",
+        "with_warmup": "(0.873 ± 0.011)"
+      },
+      "odin": {
+        "without_warmup": "(0.948 ± 0.004)",
+        "with_warmup": "(0.966 ± 0.005)"
+      },
+      "energy": {
+        "without_warmup": "(0.934 ± 0.011)",
+        "with_warmup": "(0.961 ± 0.006)"
+      }
+    },
+    "resnet34": {
+      "msp": {
+        "without_warmup": "(0.868 ± 0.006)",
+        "with_warmup": "(0.886 ± 0.005)"
+      },
+      "temp_scaling": {
+        "without_warmup": "(0.872 ± 0.008)",
+        "with_warmup": "(0.897 ± 0.012)"
+      },
+      "odin": {
+        "without_warmup": "(0.939 ± 0.030)",
+        "with_warmup": "(0.951 ± 0.017)"
+      },
+      "energy": {
+        "without_warmup": "(0.924 ± 0.046)",
+        "with_warmup": "(0.937 ± 0.020)"
+      }
+    },
+    "resnet50": {
+      "msp": {
+        "without_warmup": "(0.858 ± 0.020)",
+        "with_warmup": "(0.887 ± 0.003)"
+      },
+      "temp_scaling": {
+        "without_warmup": "(0.879 ± 0.029)",
+        "with_warmup": "(0.919 ± 0.012)"
+      },
+      "odin": {
+        "without_warmup": "(0.947 ± 0.012)",
+        "with_warmup": "(0.957 ± 0.005)"
+      },
+      "energy": {
+        "without_warmup": "(0.926 ± 0.041)",
+        "with_warmup": "(0.936 ± 0.006)"
+      }
+    },
+    "resnet101": {
+      "msp": {
+        "without_warmup": "(0.846 ± 0.013)",
+        "with_warmup": "(0.892 ± 0.001)"
+      },
+      "temp_scaling": {
+        "without_warmup": "(0.846 ± 0.013)",
+        "with_warmup": "(0.917 ± 0.008)"
+      },
+      "odin": {
+        "without_warmup": "(0.931 ± 0.020)",
+        "with_warmup": "(0.965 ± 0.006)"
+      },
+      "energy": {
+        "without_warmup": "(0.916 ± 0.033)",
+        "with_warmup": "(0.917 ± 0.014)"
+      }
+    },
+    "densenet121": {
+      "msp": {
+        "without_warmup": "(0.866 ± 0.010)",
+        "with_warmup": "(0.879 ± 0.006)"
+      },
+      "temp_scaling": {
+        "without_warmup": "(0.888 ± 0.013)",
+        "with_warmup": "(0.889 ± 0.004)"
+      },
+      "odin": {
+        "without_warmup": "(0.952 ± 0.004)",
+        "with_warmup": "(0.953 ± 0.004)"
+      },
+      "energy": {
+        "without_warmup": "(0.947 ± 0.004)",
+        "with_warmup": "(0.928 ± 0.009)"
+      }
+    },
+    "densenet169": {
+      "msp": {
+        "without_warmup": "(0.862 ± 0.005)",
+        "with_warmup": "(0.874 ± 0.006)"
+      },
+      "temp_scaling": {
+        "without_warmup": "(0.863 ± 0.006)",
+        "with_warmup": "(0.885 ± 0.009)"
+      },
+      "odin": {
+        "without_warmup": "(0.950 ± 0.008)",
+        "with_warmup": "(0.962 ± 0.010)"
+      },
+      "energy": {
+        "without_warmup": "(0.948 ± 0.007)",
+        "with_warmup": "(0.952 ± 0.013)"
+      }
+    },
+    "densenet201": {
+      "msp": {
+        "without_warmup": "(0.799 ± 0.017)",
+        "with_warmup": "(0.894 ± 0.003)"
+      },
+      "temp_scaling": {
+        "without_warmup": "(0.800 ± 0.017)",
+        "with_warmup": "(0.911 ± 0.006)"
+      },
+      "odin": {
+        "without_warmup": "(0.906 ± 0.007)",
+        "with_warmup": "(0.955 ± 0.011)"
+      },
+      "energy": {
+        "without_warmup": "(0.900 ± 0.012)",
+        "with_warmup": "(0.932 ± 0.026)"
+      }
+    },
+    "vit": {
+      "msp": {
+        "without_warmup": "(0.692 ± 0.020)",
+        "with_warmup": "(0.750 ± 0.002)"
+      },
+      "temp_scaling": {
+        "without_warmup": "(0.767 ± 0.017)",
+        "with_warmup": "(0.806 ± 0.011)"
+      },
+      "odin": {
+        "without_warmup": "(0.877 ± 0.008)",
+        "with_warmup": "(0.900 ± 0.002)"
+      },
+      "energy": {
+        "without_warmup": "(0.879 ± 0.008)",
+        "with_warmup": "(0.905 ± 0.006)"
+      }
+    }
+  },
+  "config": {
+    "format": "(mean ± std), fixed to 3 decimal places",
+    "ood_scale": "x1"
+  }
+}

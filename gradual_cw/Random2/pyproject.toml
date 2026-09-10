@@ -1,0 +1,25 @@
+[project]
+name = "Random2"
+version = "0.1.0"
+description = "Python environment for project <Brain-Inspired Warm-Up Training with Random Noise for Uncertainty Calibration>"
+requires-python = ">=3.12,<3.13"
+authors = [
+  { name = "Jeonghwan Cheon", email = "jeonghwan518@kaist.ac.kr" }
+]
+
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "pep8",
+  "torch",
+  "torchvision",
+  "torchaudio",
+  "ipykernel",
+  "opencv-python",
+  "lxml",
+  "scikit-learn",
+  "wandb>=0.24.1",
+]
+
+[tool.uv]
+package = false

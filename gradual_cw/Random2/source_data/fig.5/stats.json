@@ -1,0 +1,63 @@
+{
+  "b_right_mannwhitneyu": {
+    "U": 98908786.0,
+    "p": "4.9407e-324",
+    "r": 0.8471038455537084,
+    "n1": 10000,
+    "n2": 10000
+  },
+  "d_right_wilcoxon_signed_rank": {
+    "W": 60.0,
+    "p": "3.8811e-04",
+    "r": -0.6477802475180636,
+    "n": 30
+  },
+  "summary": {
+    "b_right": {
+      "without_warmup": {
+        "mean": 0.30988870434165,
+        "median": 0.3090605288743973,
+        "std": 0.042157241676256264
+      },
+      "with_warmup": {
+        "mean": 0.20471504505425692,
+        "median": 0.2041073888540268,
+        "std": 0.021290456220731734
+      }
+    },
+    "d_right": {
+      "without_warmup": {
+        "mean": 0.8437806863333333,
+        "median": 0.8735367525,
+        "std": 0.1257128265475783
+      },
+      "with_warmup": {
+        "mean": 0.8962395466666667,
+        "median": 0.9108631199999999,
+        "std": 0.0719872588379993
+      }
+    }
+  },
+  "config": {
+    "tests": {
+      "b_right": {
+        "test": "mannwhitneyu",
+        "alternative": "two-sided",
+        "method": "asymptotic"
+      },
+      "d_right": {
+        "test": "wilcoxon_signed_rank",
+        "alternative": "two-sided",
+        "zero_method": "wilcox",
+        "correction": false,
+        "method": "auto",
+        "effect_size_r_source": "ranksum"
+      }
+    },
+    "colors": {
+      "without_warmup": "#DF6347",
+      "with_warmup": "#0989FF",
+      "aux": "#848484"
+    }
+  }
+}

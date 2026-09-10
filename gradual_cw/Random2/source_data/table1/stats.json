@@ -1,0 +1,187 @@
+{
+  "accuracy": {
+    "resnet18": {
+      "without_warmup": "(0.918 ± 0.004)",
+      "with_warmup": "(0.930 ± 0.001)"
+    },
+    "resnet34": {
+      "without_warmup": "(0.927 ± 0.003)",
+      "with_warmup": "(0.937 ± 0.001)"
+    },
+    "resnet50": {
+      "without_warmup": "(0.906 ± 0.009)",
+      "with_warmup": "(0.936 ± 0.002)"
+    },
+    "resnet101": {
+      "without_warmup": "(0.897 ± 0.003)",
+      "with_warmup": "(0.930 ± 0.002)"
+    },
+    "densenet121": {
+      "without_warmup": "(0.923 ± 0.003)",
+      "with_warmup": "(0.932 ± 0.001)"
+    },
+    "densenet169": {
+      "without_warmup": "(0.914 ± 0.004)",
+      "with_warmup": "(0.935 ± 0.001)"
+    },
+    "densenet201": {
+      "without_warmup": "(0.892 ± 0.003)",
+      "with_warmup": "(0.933 ± 0.002)"
+    },
+    "vit": {
+      "without_warmup": "(0.764 ± 0.004)",
+      "with_warmup": "(0.779 ± 0.008)"
+    }
+  },
+  "ece_percent": {
+    "resnet18": {
+      "msp": {
+        "without_warmup": "(3.310 ± 0.350)%",
+        "with_warmup": "(1.860 ± 0.187)%"
+      },
+      "temp_scaling": {
+        "without_warmup": "(2.567 ± 0.194)%",
+        "with_warmup": "(2.133 ± 0.118)%"
+      },
+      "vec_scaling": {
+        "without_warmup": "(2.517 ± 0.278)%",
+        "with_warmup": "(1.940 ± 0.172)%"
+      },
+      "isotonic_reg": {
+        "without_warmup": "(2.507 ± 0.124)%",
+        "with_warmup": "(2.417 ± 0.123)%"
+      }
+    },
+    "resnet34": {
+      "msp": {
+        "without_warmup": "(4.220 ± 0.975)%",
+        "with_warmup": "(2.237 ± 0.165)%"
+      },
+      "temp_scaling": {
+        "without_warmup": "(2.100 ± 0.198)%",
+        "with_warmup": "(1.933 ± 0.456)%"
+      },
+      "vec_scaling": {
+        "without_warmup": "(2.250 ± 0.357)%",
+        "with_warmup": "(2.060 ± 0.546)%"
+      },
+      "isotonic_reg": {
+        "without_warmup": "(2.493 ± 0.150)%",
+        "with_warmup": "(2.617 ± 0.295)%"
+      }
+    },
+    "resnet50": {
+      "msp": {
+        "without_warmup": "(6.453 ± 0.443)%",
+        "with_warmup": "(3.113 ± 0.480)%"
+      },
+      "temp_scaling": {
+        "without_warmup": "(2.907 ± 0.568)%",
+        "with_warmup": "(2.207 ± 0.469)%"
+      },
+      "vec_scaling": {
+        "without_warmup": "(4.597 ± 0.130)%",
+        "with_warmup": "(2.270 ± 0.176)%"
+      },
+      "isotonic_reg": {
+        "without_warmup": "(2.350 ± 0.185)%",
+        "with_warmup": "(2.780 ± 0.122)%"
+      }
+    },
+    "resnet101": {
+      "msp": {
+        "without_warmup": "(6.847 ± 0.366)%",
+        "with_warmup": "(4.100 ± 0.473)%"
+      },
+      "temp_scaling": {
+        "without_warmup": "(2.680 ± 0.245)%",
+        "with_warmup": "(2.143 ± 0.304)%"
+      },
+      "vec_scaling": {
+        "without_warmup": "(4.703 ± 0.705)%",
+        "with_warmup": "(3.067 ± 0.533)%"
+      },
+      "isotonic_reg": {
+        "without_warmup": "(2.437 ± 0.196)%",
+        "with_warmup": "(2.580 ± 0.248)%"
+      }
+    },
+    "densenet121": {
+      "msp": {
+        "without_warmup": "(3.620 ± 0.075)%",
+        "with_warmup": "(1.723 ± 0.061)%"
+      },
+      "temp_scaling": {
+        "without_warmup": "(2.110 ± 0.394)%",
+        "with_warmup": "(2.013 ± 0.360)%"
+      },
+      "vec_scaling": {
+        "without_warmup": "(2.537 ± 0.033)%",
+        "with_warmup": "(2.330 ± 0.156)%"
+      },
+      "isotonic_reg": {
+        "without_warmup": "(2.787 ± 0.319)%",
+        "with_warmup": "(2.817 ± 0.289)%"
+      }
+    },
+    "densenet169": {
+      "msp": {
+        "without_warmup": "(4.247 ± 0.111)%",
+        "with_warmup": "(1.660 ± 0.424)%"
+      },
+      "temp_scaling": {
+        "without_warmup": "(2.053 ± 0.111)%",
+        "with_warmup": "(1.790 ± 0.561)%"
+      },
+      "vec_scaling": {
+        "without_warmup": "(2.957 ± 0.291)%",
+        "with_warmup": "(2.467 ± 0.494)%"
+      },
+      "isotonic_reg": {
+        "without_warmup": "(2.590 ± 0.342)%",
+        "with_warmup": "(2.733 ± 0.162)%"
+      }
+    },
+    "densenet201": {
+      "msp": {
+        "without_warmup": "(5.577 ± 0.429)%",
+        "with_warmup": "(1.853 ± 0.303)%"
+      },
+      "temp_scaling": {
+        "without_warmup": "(2.740 ± 0.492)%",
+        "with_warmup": "(1.913 ± 0.238)%"
+      },
+      "vec_scaling": {
+        "without_warmup": "(4.397 ± 0.246)%",
+        "with_warmup": "(2.333 ± 0.270)%"
+      },
+      "isotonic_reg": {
+        "without_warmup": "(2.457 ± 0.172)%",
+        "with_warmup": "(2.583 ± 0.401)%"
+      }
+    },
+    "vit": {
+      "msp": {
+        "without_warmup": "(11.707 ± 0.452)%",
+        "with_warmup": "(5.560 ± 0.599)%"
+      },
+      "temp_scaling": {
+        "without_warmup": "(3.577 ± 0.350)%",
+        "with_warmup": "(2.690 ± 0.441)%"
+      },
+      "vec_scaling": {
+        "without_warmup": "(10.737 ± 0.636)%",
+        "with_warmup": "(6.147 ± 0.395)%"
+      },
+      "isotonic_reg": {
+        "without_warmup": "(2.410 ± 0.166)%",
+        "with_warmup": "(2.030 ± 0.036)%"
+      }
+    }
+  },
+  "config": {
+    "format": "(mean ± std), fixed to 3 decimal places",
+    "accuracy_scale": "x1",
+    "ece_scale": "x100 and suffixed with %"
+  }
+}
