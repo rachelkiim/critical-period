@@ -1,0 +1,10 @@
+# large/regenerable outputs
+**/dataset/
+**/results/
+**/figures/
+**/__pycache__/
+
+# reference clones (calibration/random2, gradual/gradual-sensory-maturation)
+# gradual/gradual-sensory-maturation has its own nested .git -- must stay excluded
+/calibration/
+/gradual/

@@ -23,7 +23,7 @@ def train(model, train_loader, optimizer, criterion, scheduler=None, device=None
     running_loss = []
     running_acc = []
 
-    for i, (inputs, labels, _) in enumerate(train_loader):
+    for i, (inputs, labels) in enumerate(train_loader):
         inputs, labels = inputs.to(device), labels.to(device)
         optimizer.zero_grad()
         outputs = model(inputs)
@@ -63,7 +63,7 @@ def test(model, test_loader, criterion, device=None):
     running_acc = []
 
     with torch.no_grad():
-        for i, (inputs, labels, _) in enumerate(test_loader):
+        for i, (inputs, labels) in enumerate(test_loader):
             inputs, labels = inputs.to(device), labels.to(device)
             outputs = model(inputs)
             loss = criterion(outputs, labels)
